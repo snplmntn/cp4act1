@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eaf0ed;
+  height: 4rem;
+  flex: 1;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+
+img {
+  border-radius: 25px;
+  width: 60%;
+  height: 75%;
+  margin-right: auto;
+}
+
+.info {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 15px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.quest {
+  display: flex;
+}
+
+.quest-logo {
+  margin-left: 50px;
+  justify-self: end;
+}
+
+.title,
+.quest {
+  color: rgb(7, 113, 184);
+}
+
+.title {
+  font-size: 50px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+.message {
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+.explore,
+.learn {
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.explore {
+  background-color: rgb(7, 113, 184);
+  color: white;
+}
+
+.learn {
+  color: rgb(7, 113, 184);
+  background-color: rgb(227, 226, 226);
+  margin-left: 10px;
+}
